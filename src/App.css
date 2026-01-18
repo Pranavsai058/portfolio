@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.certificate-card {
+  text-align: center;
+  margin-bottom: 40px;        /* gives space between rows */
+}
+
+.cert-card {
+  background: transparent;
+  border: none;
+  padding: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cert-card:hover {
+  transform: translateY(-8px) scale(1.03);   /* hover movement */
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25); /* smooth shadow */
+}
+
+.cert-img {
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.cert-card:hover .cert-img {
+  transform: scale(1.05);     /* image zoom */
+}
+
+.cert-title {
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;               /* adjust as needed */
+}
