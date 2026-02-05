@@ -2,9 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import foodapp from "../../Assets/Projects/foodapp.jpg";
+import foodapp from "../../Assets/Projects/foodapp.png";
 import chatapp from "../../Assets/Projects/chatapp.jpg";
-import collegeapp from "../../Assets/Projects/collegeapp.jpeg";
+import collegeapp from "../../Assets/Projects/collegeapp.png";
 
 function Projects() {
   return (
